@@ -16,7 +16,7 @@ body, html {
     font-size: 4em;
     color: white;
     text-shadow: 0 0 0.5em rgb(66, 66, 66);
-    margin-top: 1em;
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
 
@@ -34,6 +34,7 @@ body, html {
     color: white;
     font-weight: 300;
     line-height: 20pt;
+    margin-bottom: 1em;
 }
 
 img {
@@ -63,13 +64,16 @@ img {
     min-width: 50%;
 }
 
-.footerhpr1 {
+.footerhprOne {
     font-family: 'Questrial', sans-serif;
     font-size: 0.8em;
     color: white;
     position:absolute;
     bottom:0;
+    padding-top: 1em;
     width:100%;
-    height:3em;		/* Wysokość nagłówka */
-    background: transparent;
+    height:3em;		
+    background-color: rgba(233, 233, 233, 0.2);
+    transition: 1s;
+    visibility: visible;
 }
