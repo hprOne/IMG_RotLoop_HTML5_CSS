@@ -12,9 +12,12 @@ console.log(footer)
 //adding listener
 a.addEventListener("click", function () {
   let length = img.offsetWidth;
-  if (length<=300)
+  if (length<=303)
   {
-    document.getElementById("footerhprOne").style.display = "block";
+    document.getElementById("footerhprOne").style.opacity = 100;
+    document.getElementById("footerhprOne").style.paddingTop = "1em";
+    document.getElementById("footerhprOne").style.height = "3em";
+    document.getElementById("footerhprOne").style.fontSize = "0.8em";
   }
   if (length>150 )
   {
@@ -25,9 +28,12 @@ a.addEventListener("click", function () {
 
 b.addEventListener("click", function () {
   let length = img.offsetWidth;
-  if (length>=300)
+  if (length>=303)
   {
-    document.getElementById("footerhprOne").style.display = "none";
+    document.getElementById("footerhprOne").style.opacity = 0;
+    document.getElementById("footerhprOne").style.paddingTop = "0.01em";
+    document.getElementById("footerhprOne").style.height = "0.1em";
+    document.getElementById("footerhprOne").style.fontSize = "0.01em";
   }
   if (length<525)
   {
